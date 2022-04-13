@@ -1,0 +1,106 @@
+version 2
+run LoRaSim-MinimalTopology-86-20211223-03:02:14-6592
+attr configname LoRaSim-MinimalTopology
+attr datetime 20211223-03:02:14
+attr experiment LoRaSim-MinimalTopology
+attr inifile omnetpp.ini
+attr iterationvars "$minR=700, $N=1800"
+attr iterationvarsf minR=700,N=1800-
+attr measurement "$minR=700, $N=1800"
+attr network LoRa
+attr processid 6592
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 86
+attr seedset 86
+itervar N 1800
+itervar minR 700
+param LoRa.slotTime 0
+param LoRa.dutyCycleActive true
+param LoRa.**.isBufferingEvents false
+param LoRa.*.nbOfChannels 3
+param LoRa.minR 700m
+param LoRa.numHosts7 1800
+param LoRa.hostSF7[*].hostType 0
+param LoRa.numHosts8 0
+param LoRa.numHosts9 0
+param LoRa.numHosts10 0
+param LoRa.numHosts11 0
+param LoRa.numHosts12 0
+param LoRa.**.iaTime exponential(600s)
+param LoRa.**.pkLenBits 160b
+param LoRa.**.addFrameHeader true
+param LoRa.**.Ptx_ed 14
+param LoRa.server.Gant 2
+param LoRa.server.K 128.95
+param LoRa.server.NF 6
+param LoRa.**.pathlossExp 2.32
+param LoRa.**.shadowingParamater normal(0,7.8)
+param LoRa.**.interShadowingParamater 0
+param LoRa.server.BER 5
+param LoRa.**.CRC 1
+param LoRa.**.IH 0
+param LoRa.**.CR 1
+param LoRa.**.DE 0
+param LoRa.**.Nprog 8
+param LoRa.netR 4259.03m
+param LoRa.server.x 0
+param LoRa.server.y 0
+param LoRa.*.BW "125000 Hz"
+param **.animationHoldTimeOnCollision 0s
+param **.idleAnimationSpeed 1
+param **.transmissionEdgeAnimationSpeed 1e-6
+param **.midTransmissionAnimationSpeed 1e-1
+
+scalar LoRa.server "SuccessRate: 7" 2.5616689814815
+scalar LoRa.server "SuccessProb: 7" 0.8632037353668
+scalar LoRa.server "rcvCounter: 7" 2564032
+scalar LoRa.server "noOfCollidedPackets: 7" 350750
+scalar LoRa.server "noOfSuccessPackets: 7" 2213282
+scalar LoRa.server "SuccessRate: 8" 0
+scalar LoRa.server "SuccessProb: 8" 0
+scalar LoRa.server "rcvCounter: 8" 0
+scalar LoRa.server "noOfCollidedPackets: 8" 0
+scalar LoRa.server "noOfSuccessPackets: 8" 0
+scalar LoRa.server "SuccessRate: 9" 0
+scalar LoRa.server "SuccessProb: 9" 0
+scalar LoRa.server "rcvCounter: 9" 0
+scalar LoRa.server "noOfCollidedPackets: 9" 0
+scalar LoRa.server "noOfSuccessPackets: 9" 0
+scalar LoRa.server "SuccessRate: 10" 0
+scalar LoRa.server "SuccessProb: 10" 0
+scalar LoRa.server "rcvCounter: 10" 0
+scalar LoRa.server "noOfCollidedPackets: 10" 0
+scalar LoRa.server "noOfSuccessPackets: 10" 0
+scalar LoRa.server "SuccessRate: 11" 0
+scalar LoRa.server "SuccessProb: 11" 0
+scalar LoRa.server "rcvCounter: 11" 0
+scalar LoRa.server "noOfCollidedPackets: 11" 0
+scalar LoRa.server "noOfSuccessPackets: 11" 0
+scalar LoRa.server "SuccessRate: 12" 0
+scalar LoRa.server "SuccessProb: 12" 0
+scalar LoRa.server "rcvCounter: 12" 0
+scalar LoRa.server "noOfCollidedPackets: 12" 0
+scalar LoRa.server "noOfSuccessPackets: 12" 0
+scalar LoRa.server "timeInState: 0" 697922.27094399
+scalar LoRa.server "timeInState: 1" 148971.47518449
+scalar LoRa.server "timeInState: 2" 15906.546300346
+scalar LoRa.server "timeInState: 3" 1134.4721561398
+scalar LoRa.server "timeInState: 4" 61.485290413665
+scalar LoRa.server "timeInState: 5" 2.365304548957
+scalar LoRa.server "timeInState: 6" 0.0756689994
+scalar LoRa.server "timeInState: 7" 0
+scalar LoRa.server "timeInState: 8" 0
+scalar LoRa.server "timeInState: 9" 0
+scalar LoRa.server totalNumHosts 1800
+scalar LoRa.server totalReceivedCounter 2564032
+scalar LoRa.server totalReceivedInterferenceCounter 0
+scalar LoRa.server lastAddRemoveRxEvent 863999.62415378
+scalar LoRa.server countOfThreePacketsInSystem 6083
+scalar LoRa.server countOfTwoPacketsInSystem 169520
+scalar LoRa.server countOfOnePacketInSystem 2388273
+scalar LoRa.server totalSuccessRate 2.5616689814815
+scalar LoRa.server totalSuccessProb 0.8632037353668
+scalar LoRa.server duration 864000
+
